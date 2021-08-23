@@ -3,6 +3,9 @@ package demo.code.entity;
 import javax.persistence.*;
 import java.util.List;
 
+/**
+ * This entity contains sub entities whose properties will not be created by ai.
+ */
 @Entity
 public class Trade {
     @Id
